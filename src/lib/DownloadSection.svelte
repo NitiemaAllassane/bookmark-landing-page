@@ -10,7 +10,7 @@
             name: 'Chrome',
             version: '62',
             logo: googleLogo
-},
+        },
         {
             name: 'Firefox',
             version: '55',
@@ -24,7 +24,7 @@
     ];
 </script>
 
-<section class=" mb-32">
+<section class=" mb-90">
     <div class="container">
         <article class=" mb-24">
             <div class=" max-w-full md:max-w-[600px] mx-auto">
@@ -37,7 +37,7 @@
                 </p>
             </div>
         </article>
-        <section class=" md:flex  gap-6 justify-center items-center ">
+        <section class=" md:flex gap-3  md:gap-6 justify-center items-center ">
             {#each extensions as extension, i }
                 <article class=" max-w-full md:w-[280px] shadow-[0_12px_24px_rgba(0,0,0,0.1)]
                     {i === 1 ? `md:transform translate-y-[100px]` : ""}

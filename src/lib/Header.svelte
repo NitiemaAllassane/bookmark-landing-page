@@ -4,6 +4,11 @@
     import LoginButton from "./components/LoginButton.svelte";
 
     import MenuButton from "./components/MenuButton.svelte";
+    import MobileNav from "./components/MobileNav.svelte";
+
+    import { mobileNav } from "./states.svelte";
+
+
 </script>
 
 
@@ -14,6 +19,10 @@
             <Navigation />
             <LoginButton />
         </div>
-        <MenuButton />
+        <MenuButton onButtonClick={() => mobileNav.isMobileOpened = true} />
     </div>
 </header>
+
+{#if mobileNav.isMobileOpened}
+    <MobileNav />
+{/if}

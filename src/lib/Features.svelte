@@ -1,9 +1,9 @@
 <script>
-  import TabOne from "./components/TabOne.svelte";
-  import TabThree from "./components/TabThree.svelte";
-  import TabTwo from "./components/TabTwo.svelte";
+    import TabOne from "./components/TabOne.svelte";
+    import TabThree from "./components/TabThree.svelte";
+    import TabTwo from "./components/TabTwo.svelte";
 
-    let activeTab = $state("tab1");
+    let activeTab = $state(1);
 </script>
 
 
@@ -20,8 +20,8 @@
             </div>
         </article>
         <article>
-            <nav class="flex flex-col md:flex-row mb-16 md:mb-20">
-                {#each ["tab1", "tab2", "tab3"] as tab, index}
+            <div role="tablist" class="flex flex-col md:flex-row mb-16 md:mb-20">
+                {#each [1, 2, 3] as tab, index}
                     <button
                         type="button"
                         role="tab"
@@ -35,14 +35,14 @@
                             ${activeTab === tab ? "text-blue-950 after:content-[''] after:absolute after:bottom-0 after:left-1/2 after:translate-x-[-50%] after:w-[80%] after:h-[5px] after:bg-red-400" : "text-gray-500 hover:text-red-400"}
                         `}
                     >
-                        {tab === "tab1" ? "Simple Bookmarking" : tab === "tab2" ? "Speedy Searching" : "Easy Sharing"}
+                        {tab === 1 ? "Simple Bookmarking" : tab === 2 ? "Speedy Searching" : "Easy Sharing"}
                     </button>
                 {/each}
-            </nav>
+            </div>
             <div class="content">
-                {#if activeTab === "tab1"}
+                {#if activeTab === 1}
                     <TabOne />
-                {:else if activeTab === "tab2"}
+                {:else if activeTab === 2}
                     <TabTwo />
                 {:else}
                     <TabThree />

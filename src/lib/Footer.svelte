@@ -1,11 +1,8 @@
 <script>
     import facebookIcon from '../assets/images/icon-facebook.svg';
     import twiterIcon from '../assets/images/icon-twitter.svg';
-  import FooterLogo from './components/FooterLogo.svelte';
-  import FooterNav from './components/FooterNav.svelte';
-    import Logo from "./components/Logo.svelte";
-    import Navigation from "./components/Navigation.svelte";
-
+    import FooterLogo from './components/FooterLogo.svelte';
+    import FooterNav from './components/FooterNav.svelte';
 </script>
 
 

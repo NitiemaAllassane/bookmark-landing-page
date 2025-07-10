@@ -2,7 +2,7 @@
     import { ChevronDown } from 'lucide-svelte';
     import { backOut } from 'svelte/easing';
     import { slide } from 'svelte/transition';
-  import MoreButton from './components/MoreButton.svelte';
+    import MoreButton from './components/MoreButton.svelte';
 
     let faqs = [
         {

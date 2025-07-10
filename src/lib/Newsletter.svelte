@@ -1,7 +1,7 @@
 <script>
     import errorIcon from '../assets/images/icon-error.svg';
     import ContactButton from './components/ContactButton.svelte';
-  import SucessMessage from './components/SucessMessage.svelte';
+    import SucessMessage from './components/SucessMessage.svelte';
 
     let hasError = $state(false);
     let success = $state(false);

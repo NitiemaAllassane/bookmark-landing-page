@@ -28,13 +28,14 @@ Users should be able to:
 
 ### Screenshot
 
-![](/design/desktop-design.jpg)
+![](/design/bookmark_screenshot.png)
 
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://bookmark-landing-page-orcin-three.vercel.app/)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [ https://www.frontendmentor.io/solutions/a-beautiful-landing-page-for-bookmarks-built-with-svelt-mprHlReICp](https://bookmark-landing-page-orcin-three.vercel.app/)
+
+- Live Site URL: [https://bookmark-landing-page-orcin-three.vercel.app/](https://bookmark-landing-page-orcin-three.vercel.app/)
 
 ## My process
 
